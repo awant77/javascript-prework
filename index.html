@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Rock, Paper, Scissors</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <h1>Rock, Paper, Scissors</h1>
-    <h3>Choose your move</h3>
-    <div class="moves">
-      <button id="rock">Rock</button>
-      <button id="scissors">Scissors</button>
-      <button id="paper">Paper</button>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Rock, Paper, Scissors</h1>
+  <h3>Choose your move</h3>
+  <div class="moves">
+    <button id="rock" type="button">Rock</button>
+    <button id="scissors" type="button">Scissors</button>
+    <button id="paper" type="button">Paper</button>
+  </div>
+
+  <div class="results">
+    <div>
+      <span>Players move:</span>
+      <span id="players-move">Rock</span>
     </div>
 
-    <div class="results">
-      <div>
-        <span>Players move:</span>
-        <span id="players-move">Rock</span>
-      </div>
-
-      <div>
-        <span>Computers move:</span>
-        <span id="computers-move">Paper</span>
-      </div>
-
-      <div id="result">You won!</div>
+    <div>
+      <span>Computers move:</span>
+      <span id="computers-move">Paper</span>
     </div>
-    <script src="functions.js"></script>
-    <script src="script.js"></script>
-  </body>
+
+    <div id="result">You won!</div>
+  </div>
+  <script src="functions.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
