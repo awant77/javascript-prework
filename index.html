@@ -2,9 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <h3>Choose your move</h3>
+    <div class="moves">
+      <button id="rock">Rock</button>
+      <button id="scissors">Scissors</button>
+      <button id="paper">Paper</button>
+    </div>
+
+    <div class="results">
+      <div>
+        <span>Players move:</span>
+        <span id="players-move">Rock</span>
+      </div>
+
+      <div>
+        <span>Computers move:</span>
+        <span id="computers-move">Paper</span>
+      </div>
+
+      <div id="result">You won!</div>
+    </div>
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
